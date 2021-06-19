@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JavaScript tag | 杜世宏 Blog</title>
+    <meta name="description" content="This is my blog built by VuePress">
+    
+    
+    <link rel="preload" href="/my-blog/assets/css/0.styles.49f242e9.css" as="style"><link rel="preload" href="/my-blog/assets/js/app.70b9bc56.js" as="script"><link rel="preload" href="/my-blog/assets/js/4.b2ac51c3.js" as="script"><link rel="preload" href="/my-blog/assets/js/9.ed1cfb6e.js" as="script"><link rel="preload" href="/my-blog/assets/js/6.3ab6f7c8.js" as="script"><link rel="prefetch" href="/my-blog/assets/js/1.7770a145.js"><link rel="prefetch" href="/my-blog/assets/js/10.8365512b.js"><link rel="prefetch" href="/my-blog/assets/js/11.f6e9bbc8.js"><link rel="prefetch" href="/my-blog/assets/js/12.6e03e04a.js"><link rel="prefetch" href="/my-blog/assets/js/13.32f15c40.js"><link rel="prefetch" href="/my-blog/assets/js/14.19ec770d.js"><link rel="prefetch" href="/my-blog/assets/js/15.2a79c8f3.js"><link rel="prefetch" href="/my-blog/assets/js/16.5542c771.js"><link rel="prefetch" href="/my-blog/assets/js/17.2868de75.js"><link rel="prefetch" href="/my-blog/assets/js/18.fd1f9985.js"><link rel="prefetch" href="/my-blog/assets/js/19.574b1d35.js"><link rel="prefetch" href="/my-blog/assets/js/20.29beb69d.js"><link rel="prefetch" href="/my-blog/assets/js/21.f18adf42.js"><link rel="prefetch" href="/my-blog/assets/js/22.70f7811b.js"><link rel="prefetch" href="/my-blog/assets/js/23.bb948377.js"><link rel="prefetch" href="/my-blog/assets/js/24.595c94c3.js"><link rel="prefetch" href="/my-blog/assets/js/25.4fcf436c.js"><link rel="prefetch" href="/my-blog/assets/js/26.4977379b.js"><link rel="prefetch" href="/my-blog/assets/js/27.05675f33.js"><link rel="prefetch" href="/my-blog/assets/js/28.eb5ca4b2.js"><link rel="prefetch" href="/my-blog/assets/js/29.2dd24bfb.js"><link rel="prefetch" href="/my-blog/assets/js/5.c4173a15.js"><link rel="prefetch" href="/my-blog/assets/js/7.2f8aec3f.js"><link rel="prefetch" href="/my-blog/assets/js/8.f1e374c8.js"><link rel="prefetch" href="/my-blog/assets/js/vuejs-paginate.e7121bfe.js">
+    <link rel="stylesheet" href="/my-blog/assets/css/0.styles.49f242e9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="vuperess-theme-blog__global-layout"><section id="header-wrapper"><header id="header"><div class="header-wrapper"><div class="title"><a href="/my-blog/" class="nav-link home-link">杜世宏 Blog
+        </a></div> <div class="header-right-wrap"><ul class="nav"><li class="nav-item"><a href="/my-blog/Introduction.html" class="nav-link">Introduction</a></li><li class="nav-item"><a href="/my-blog/" class="nav-link">Blog</a></li><li class="nav-item"><a href="/my-blog/tag/" class="nav-link router-link-active">Tags</a></li><li class="nav-item"><a href="https://github.com/dsh225" target="_blank" rel="noopener noreferrer" class="nav-link external">GitHub</a></li></ul> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div></div></div></header></section> <div id="mobile-header"><div class="mobile-header-bar"><div class="mobile-header-title"><a href="/my-blog/" class="nav-link mobile-home-link">杜世宏 Blog
+      </a> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div> <div class="mobile-menu-wrapper"><hr class="menu-divider"> <ul class="mobile-nav"><li class="mobile-nav-item"><a href="/my-blog/Introduction.html" class="nav-link">Introduction</a></li><li class="mobile-nav-item"><a href="/my-blog/" class="nav-link">Blog</a></li><li class="mobile-nav-item"><a href="/my-blog/tag/" class="nav-link router-link-active">Tags</a></li><li class="mobile-nav-item"><a href="https://github.com/dsh225" target="_blank" rel="noopener noreferrer" class="nav-link external">GitHub</a></li></ul></div></div></div> <div class="content-wrapper"><div><div id="base-list-layout"><div class="ui-posts"><div class="ui-post"><div class="ui-post-title"><a href="/my-blog/2019/12/13/javascript%E5%AF%B9%E8%B1%A1%E6%95%B0%E7%BB%84%E6%B7%B1%E6%8B%B7%E8%B4%9D/" class="nav-link">JavaScript 对象 or 数组深拷贝</a></div> <div class="ui-post-summary">
+        - 声明一个 deepCopy 函数；
+&gt; - 声明一个变量target，根据数据源（source）格式给其赋初始值；
+&gt; - for...in循环遍历对象 or 数组，如果当前属性source[key]不是对象，就把source[key]复制到target中，如果是个对象就递归调用deepCopy函数，直到所有属性不再是对象为止，拷贝结束。
+
+`JavaS ...
+        </div> <div class="ui-post-author"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-navigation"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg> <span>杜世宏 in 北京</span></div> <div class="ui-post-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <span>Fri Dec 13 2019</span></div></div><div class="ui-post"><div class="ui-post-title"><a href="/my-blog/2019/12/13/javascript%E6%97%B6%E9%97%B4%E6%88%B3%E5%92%8C%E6%97%A5%E6%9C%9F%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E4%BA%92%E8%BD%AC%E6%8D%A2/" class="nav-link">javascript 时间戳和日期字符串相互转换</a></div> <div class="ui-post-summary">
+        
+
+// 获取当前时间戳(以s为单位)
+var timestamp = Date.parse(new Date());
+timestamp = timestamp / 1000;
+//当前时间戳为：1403149534
+console.log(&quot;当前时间戳为：&quot; + timestamp);
+
+//另一个方法获取当前时间戳
+console.log(+new Date()) ...
+        </div> <div class="ui-post-author"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-navigation"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg> <span>杜世宏 in 北京</span></div> <div class="ui-post-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <span>Fri Dec 13 2019</span></div></div><div class="ui-post"><div class="ui-post-title"><a href="/my-blog/2019/12/13/javascript%E7%BB%A7%E6%89%BF%E6%9C%BA%E5%88%B6/" class="nav-link">JavaScript 继承机制之混合模式</a></div> <div class="ui-post-summary">
+        
+
+/**
+ 混合方式
+ * 这种继承方式使用构造函数定义类，并非使用任何原型。
+ 对象冒充的主要问题是必须使用构造函数方式，这不是最好的选择。
+ 不过如果使用原型链，就无法使用 带参数的构造函数了。
+ 开发者如何选择呢？答案很简单，两者都用。
+ * 创建类的最好方式是用构造函数定义属性，用原型定义方法。
+ 这种方式同样适用于继承机制，用 ...
+        </div> <div class="ui-post-author"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-navigation"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg> <span>杜世宏 in 北京</span></div> <div class="ui-post-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <span>Fri Dec 13 2019</span></div></div><div class="ui-post"><div class="ui-post-title"><a href="/my-blog/2019/12/13/%E8%8E%B7%E5%8F%96%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%97%E8%8A%82%E9%95%BF%E5%BA%A6/" class="nav-link">获取字符串字节长度</a></div> <div class="ui-post-summary">
+        
+
+const getByteLen = str =&gt; {
+  if (!str) return 0
+  if (typeof str !== 'string') {
+    str += ''
+  }
+  return str.replace(//g, '01').length
+}
+` ...
+        </div> <div class="ui-post-author"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-navigation"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg> <span>杜世宏 in 北京</span></div> <div class="ui-post-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <span>Fri Dec 13 2019</span></div></div><div class="ui-post"><div class="ui-post-title"><a href="/my-blog/2019/12/13/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/" class="nav-link">JavaScript 实现冒泡排序与快速排序</a></div> <div class="ui-post-summary">
+        
+一、冒泡排序
+
+冒泡排序的原理：
+
+冒泡排序对相邻元素进行两两比较，如果顺序不对，就要对其位置进行调换，一直到排序完成。比如第一趟比较：首先比较第一个和第二个数的大小，将小数放前，大数放后。然后比较第二个数和第三个数的大小，再将小数放前，大数放后。以此类推，直到比较完最后两个数，第一趟就比较完了。重复第一趟过程，若有 n 个数，就要比较 n-1 趟。
+
+_冒泡排序 ...
+        </div> <div class="ui-post-author"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-navigation"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg> <span>杜世宏 in 北京</span></div> <div class="ui-post-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <span>Fri Dec 13 2019</span></div></div></div> <!----></div></div></div> <footer class="footer" data-v-5317f8db><div class="footer-left-wrap" data-v-5317f8db><ul class="contact" data-v-5317f8db><li class="contact-item" data-v-5317f8db><a href="https://github.com/dsh225" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-5317f8db><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github" data-v-5317f8db><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" data-v-5317f8db></path></svg>
+          
+        </a></li></ul></div> <div class="footer-right-wrap" data-v-5317f8db><ul class="copyright" data-v-5317f8db><li class="copyright-item" data-v-5317f8db><a href="/my-blog/tag/JavaScript/.html" class="nav-link" data-v-5317f8db>MIT Licensed | Copyright © 2018-present Vue.js</a></li></ul></div></footer></div><div class="global-ui"></div></div>
+    <script src="/my-blog/assets/js/app.70b9bc56.js" defer></script><script src="/my-blog/assets/js/4.b2ac51c3.js" defer></script><script src="/my-blog/assets/js/9.ed1cfb6e.js" defer></script><script src="/my-blog/assets/js/6.3ab6f7c8.js" defer></script>
+  </body>
+</html>
